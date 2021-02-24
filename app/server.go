@@ -8,6 +8,7 @@ import (
 	"gorm.io/gorm"
 )
 
+// TODO DSNは.envで定義すること
 var (
 	db  *gorm.DB
 	err error
